@@ -1,0 +1,9 @@
+RewriteEngine on
+
+#Checks to see if the user is attempting to access a valid file
+#Such as an image or css document, if this isn't true it sends the
+#request to index.php
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond $1 !^(index\.php|assets|images|js|css|uploads|favicon.png)
+RewriteRule ^(.*) ./index.php/$1 [L]

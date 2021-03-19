@@ -1,0 +1,42 @@
+body {
+    padding-bottom: 50px;
+}
+
+.post-info {
+    color: #757575;
+    font-weight: bold;
+}
+
+.post-img-thumbnail {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.post-img-detail {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    margin: 10px auto 30px auto;
+}
+
+.img-responsive {
+    height: 200px;
+}
+
+.post-short-content {
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+.post-body{
+    font-size: 16px;
+}
+
+.comment-content {
+    font-size: 18px;
+}
+
+.cat-delete {
+    display: inline;
+}
